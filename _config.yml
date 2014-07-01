@@ -1,19 +1,20 @@
-title:            Site Title
-description:      Describe your website.
+title:            Tryton Argentina
+description:      Sitio de la comunidad de Tryton en Argentina.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  name:           Tryton-Ar
+  avatar:         bio-photo.png
+  bio:            "Comunidad Argentina de Tryton, el ERP libre escrito en Python que usa PostgreSQL como motor de base de datos."
+  email:          tryton-ar@googlegroups.com
+  googlegroup:    tryton-ar
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:
   facebook:
-  github:
+  github:          tryton-ar
   stackoverflow:
   linkedin:
   instagram:
@@ -24,7 +25,8 @@ owner:
   steam:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus:     tryton-ar
+  freenode:        tryton-es
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -35,21 +37,24 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
-  - title: Posts
+  - title: Inicio
+    url: /
+  - title: Noticias
     url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: FAQ
+    url: /faq/
+  - url: /modulos/
+    title: Módulos
+  - title: Documentación
+    url: /documentacion/
+  - title: Quiero Colaborar
+    url: /comunidad/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Buenos_Aires
 future:      true
-pygments:    true
-#highlighter: pygments
+#pygments:    true
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
