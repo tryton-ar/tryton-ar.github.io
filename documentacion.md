@@ -18,6 +18,13 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
+Documentación Funcional.
+========================
+
+Existe un [repositorio](https://github.com/tryton-ar/documentacion-tryton-ar) 
+para documentación funcional y un sitio donde la misma puede 
+consultarse en linea: [documentación funcional](http://tryton-ar.readthedocs.org/es/latest/).
+
 Instalación.
 ============
 
