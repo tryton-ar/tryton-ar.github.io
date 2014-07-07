@@ -7,7 +7,7 @@ tags: [tryton, tryton-ar, localización argentina, setup]
 ---
 <section id="table-of-contents" class="toc">
   <header>
-    <h3>Contents</h3>
+    <h3>Contenidos</h3>
   </header>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents

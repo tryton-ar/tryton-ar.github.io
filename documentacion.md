@@ -4,10 +4,13 @@ permalink: /documentacion/
 title: Documentación.
 description: "Información y Enlaces Útiles."
 tags: [tryton, tryton-ar, localización argentina, setup]
+image:
+  feature: texture-pluton.jpg
+
 ---
 <section id="table-of-contents" class="toc">
   <header>
-    <h3>Contents</h3>
+    <h3>Contenidos</h3>
   </header>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents
@@ -15,3 +18,4 @@ tags: [tryton, tryton-ar, localización argentina, setup]
 </div>
 </section><!-- /#table-of-contents -->
 
+Proximamente...
