@@ -29,16 +29,16 @@ Instalación.
 ============
 
 Una cosa que confunde mucho a los usuarios es la instalación, sobre
-todo a quienes no están familiarizados con los difersos modis de
+todo a quienes no están familiarizados con los diversos modos de
 instalación que hay en Linux.
 
-Basicamente, podríamos decir que hay 3 formas de instalar Tryton. A
+Básicamente, podríamos decir que hay 3 formas de instalar Tryton. A
 continuación expondremos los pro y las contras de cada uno de ellos:
 
 Paquete de distribución.
 ------------------------
 
-Este modo es, quzás el mas sencillo, consiste en instalar tryton a
+Este modo es, quizás el más sencillo, consiste en instalar tryton a
 partir de los repositorios oficiales de la distribución. Tiene como
 ventaja la facilidad, ya que con solo un 'apt-get install
 tryton-server' (por ej.) se instala tryton con todas sus dependencias
@@ -59,7 +59,7 @@ Instalación con Pip.
 es un gestor de paquetes para python, siendo que tryton está
 desarrollado en python. Usando pip podemos instalar la última version
 (o cualquiera) y todos los módulos oficiales. Como desventaja tenemos
-que hay que instalar manualmentw todas las dependencias de librerías
+que hay que instalar manualmente todas las dependencias de librerías
 no escritas en python. En Debian y derivados es instalar unos cuantos
 paquetes que terminan con '-dev'. Adicionalmente, tendremos que
 ocuparnos de arrancar y parar el servidor, así como también de
@@ -76,7 +76,7 @@ es una herramienta de python que permite crear ambientes de python
 aislados, todos independientes y con sus propias librerías. Estos
 entornos virtuales que genera pueden usarse sin problemas en cualquier
 carpeta de usuario común. Esta forma tiene como ventaja que se puede
-trabajar facilmente modificando módulos (se puede hacer con un usuario
+trabajar fácilmente modificando módulos (se puede hacer con un usuario
 común). Para contribuir con algún módulo no se va a poder
 directamente, pero no es díficil hacerlo. De nuevo tenemos que
 levantar el servidor manualmente y gestionar la configuración.
