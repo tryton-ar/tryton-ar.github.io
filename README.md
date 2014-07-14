@@ -1,44 +1,42 @@
-# Minimal Mistakes
+# Poniendo en marcha el entorno local
 
-**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog.
+Este sitio está construído usando
+[jekyll](http://jekyllrb.com/). Jekyll necesita una versión reciente
+de ruby que podemos instalarla usando [rvm](https://rvm.io/):
 
-## Minimal Mistakes is all about:
+	$ \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/minimal-mistakes/articles/code-highlighting-post/) to make your code examples look snazzy.
+Además, para que funcione es necesario tener una versión reciente de
+nodejs. Podemos instalarla con:
 
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
+	$ sudo apt-get install nodejs
 
-## Basic Setup for a new Jekyll site
+O utilizar [nvm](https://github.com/creationix/nvm).
 
-1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
-2. Fork the [Minimal Mistakes repo](http://github.com/mmistakes/minimal-mistakes/fork).
-3. Clone the repo you just forked and rename it.
-4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
+# Activando ruby
 
-[Demo the Theme](http://mmistakes.github.io/minimal-mistakes)
+	$ bash --login
+	$ rvm use default
 
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't need.
+# Clonar el repo
 
-## More Theme Setup Goodness
+	$ git clone https://github.com/tryton-ar/tryton-ar.github.io.git
 
-To learn more about how customize this theme, include feature images in posts, use the Grunt build scripts, and some other junk, [read up here](http://mmistakes.github.io/minimal-mistakes/theme-setup/).
+# Instalar las dependencias.
 
+	$ gem install bundler
+	$ cd tryton-ar.github.io/
+	$ bundle install
 
----
+# Correr el servidor local
 
-## Questions?
+	$ jekyll serve --watch
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/minimal-mistakes/issues/new). And if you make something cool with this theme feel free to let me know.
+Así nos dirigimos a `http://localhost:4000` para ver como van quedando
+los cambios que estamos haciendo.
 
----
+# Editando...
 
-## License
+Las páginas son archivos markdown que reciden en la carpeta inicial. Los noticias (post) están dentro de la carpeta `_post` o se pueden crear con:
 
-This theme is free and open source software, distributed under the [GNU General Public License](http://mmistakes.github.io/minimal-mistakes/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
+	$ rake new_post[titulo]
