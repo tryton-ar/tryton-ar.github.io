@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /documentacion/
-title: Documentación.
+title: Documentación
 description: "Información y Enlaces Útiles."
 tags: [tryton, tryton-ar, localización argentina, setup]
 image:
@@ -18,25 +18,21 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-Documentación Funcional.
-========================
 
 Existe un [repositorio](https://github.com/tryton-ar/documentacion-tryton-ar) 
 para documentación funcional y un sitio donde la misma puede 
 consultarse en linea: [documentación funcional](http://tryton-ar.readthedocs.org/es/latest/).
 
-Instalación.
-============
+## Instalación
 
 Una cosa que confunde mucho a los usuarios es la instalación, sobre
 todo a quienes no están familiarizados con los diversos modos de
 instalación que hay en Linux.
 
-Básicamente, podríamos decir que hay 3 formas de instalar Tryton. A
+Básicamente, podríamos decir que hay 4 formas de instalar Tryton. A
 continuación expondremos los pro y las contras de cada uno de ellos:
 
-Paquete de distribución.
-------------------------
+### Paquete de distribución
 
 Este modo es, quizás el más sencillo, consiste en instalar tryton a
 partir de los repositorios oficiales de la distribución. Tiene como
@@ -52,8 +48,7 @@ usuario root y hace que haya que usar root para agregar módulos. Por
 último, no es práctico para desarrolladores ya que no se pueden
 modificar módulos para aportar con la comunidad.
 
-Instalación con Pip.
---------------------
+### Instalación con Pip.
 
 [Pip](http://lcaballero.wordpress.com/2013/03/20/instalacion-de-paquetes-python-con-distribute-y-pip/)
 es un gestor de paquetes para python, siendo que tryton está
@@ -67,8 +62,7 @@ establecer un archivo de configuración. Al igual que el método
 anterior instala todo como root y no nos facilita las cosas para
 desarrollar módulos.
 
-Instalación con Pip+Virtualenv.
--------------------------------
+### Instalación con Pip+Virtualenv.
 
 Consiste en instalar tryton dentro de un
 [virtualenv](http://rukbottoland.com/blog/tutorial-de-python-virtualenv/). Virtualenv
@@ -81,8 +75,7 @@ común). Para contribuir con algún módulo no se va a poder
 directamente, pero no es díficil hacerlo. De nuevo tenemos que
 levantar el servidor manualmente y gestionar la configuración.
 
-Instalación del Desarrollador.
-------------------------------
+### Instalación del Desarrollador.
 
 Consiste en instalar tryton _clonando_ los repositorios de código
 fuente. Un repositorio de código es un lugar donde se almacena el
