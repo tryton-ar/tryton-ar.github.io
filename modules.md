@@ -33,7 +33,7 @@ Otros Módulos.
    Facturación integrada con el webservice de facturación electrónica
    de la AFIP.
  - [**account_check_ar**](http://bitbucket.org/thymbra/account_check_ar)
- - [**account_voucher_ar**](http://bitbucket.org/thymbra/account_voucher_ar): Comprobantes de paago.
+ - [**account_voucher_ar**](http://bitbucket.org/thymbra/account_voucher_ar): Comprobantes de pago.
  - [**account_retencion_ar**](http://bitbucket.org/thymbra/account_retencion_ar)
  - [**country_ar**](http://bitbucket.org/thymbra/country_ar): Incorpora el listado de ciudades de códigos postales de Argentina.
  - [**account_fiscalprinter_ar**](http://bitbucket.org/thymbra/account_fiscalprinter_ar)
