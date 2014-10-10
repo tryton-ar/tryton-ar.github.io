@@ -30,8 +30,7 @@ a la
 quienes no puedan presenciar la reunión, estaremos abriendo un hangout
 para que nos acompañen virtualmente como las veces anteriores.
 
-Enlace de hangout para que se unan los que están en remoto:
 
-https://plus.google.com/hangouts/_/g2suks3tgkmhh3pafrkrvc5foaa
+Para los que están en remoto pueden entrar por [<<Aquí>>](https://plus.google.com/hangouts/_/g2suks3tgkmhh3pafrkrvc5foaa)
 
 
