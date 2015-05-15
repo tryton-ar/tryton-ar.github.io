@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Deploy entorno localización Argentina"
 modified: 2015-05-15 14:44:38 -0300
 category: []
 tags: [reunion, home, deploy, pypi, localizacion]
@@ -12,7 +12,7 @@ comments:
 share: 
 ---
 
-Como hemos visto que varios tuvieron problemas para instalar la localización de Argentina, armamos un [script de deploy](https://github.com/tryton-ar/deploy-localizacion-argentina) que te genera un virtualenv, te instala todos los requerimientos usando pip, y te genera un scenario base con todas las parametrizaciones. La base de datos que genera se va a terminar llamando *tryton_ar_3_4*.
+Creamos un [script de deploy](https://github.com/tryton-ar/deploy-localizacion-argentina) para deployar un entorno de Tryton 3.4 con la localización de Argentina (AFIP, voucher, Factura Electrónica, etc). El script genera un virtualenv, te instala todos los requerimientos usando pip, y te genera un scenario base con todas las parametrizaciones. La base de datos que genera se va a terminar llamando *tryton_ar_3_4*.
 
 Obviamente, se deben instalar los requerimientos (postgresql, etc) previamente. Por favor, leer el README para más información
 
