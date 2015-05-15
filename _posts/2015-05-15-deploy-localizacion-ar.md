@@ -23,6 +23,7 @@ Si alguno quiere contribuir con su módulo, lo que les pedimos es que el prefijo
 
 
 ~ ❯❯❯ pip search trytonar
+
  * trytonar_account_invoice_ar - Localizacion para Argentina. Integración AFIP, Factura Electronica
  * trytonar_account_check_ar - Tryton module for accounting check of Argentina
  * trytonar_account_bank_ar  - Tryton module with banks of Argentina
