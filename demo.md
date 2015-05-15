@@ -19,8 +19,6 @@ image:
 </section><!-- /#table-of-contents -->
 
 
-## Demo
-
 Podes probar un entorno Tryton con la localización Argentina. Te podes conectar utilizando el cliente de Tryton.
 
  * server: demo.tryton.org.ar
@@ -31,4 +29,5 @@ Con el usuario/password:
  * Demo: demo/demo
  * Administrador: admin/admin
 
-Nota: Por el momento el entorno Demo únicamente funciona con Tryton 3.4
+Nota: 
+ Por el momento el entorno Demo únicamente funciona con Tryton 3.4
