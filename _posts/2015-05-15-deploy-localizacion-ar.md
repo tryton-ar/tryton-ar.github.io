@@ -22,12 +22,10 @@ Para facilitar la instalación, subimos los módulos de Tryton-Ar a pypi.
 Si alguno quiere contribuir con su módulo, lo que les pedimos es que el prefijo sean *trytonar* para que de esa manera, buscarlo con pypi sea facil.
 
 
-~ ❯❯❯ pip search trytonar
-
- * trytonar_account_invoice_ar - Localizacion para Argentina. Integración AFIP, Factura Electronica
- * trytonar_account_check_ar - Tryton module for accounting check of Argentina
- * trytonar_account_bank_ar  - Tryton module with banks of Argentina
- * trytonar_account_ar       - Tryton module to add an account chart template for Argentina
- * trytonar_account_voucher_ar - Tryton module to add payments and receipts for Argentina
- * trytonar_account_coop_ar  - Tryton module to add an account chart template for Cooperative Argentina
- * trytonar_account_retencion_ar - Tryton module with accounting withholding for Argentina
+ * [trytonar_account_invoice_ar](https://pypi.python.org/pypi/trytonar_account_invoice_ar) - Localizacion para Argentina. Integración AFIP, Factura Electronica
+ * [trytonar_account_check_ar](https://pypi.python.org/pypi/trytonar_account_check_ar) - Tryton module for accounting check of Argentina
+ * [trytonar_account_bank_ar](https://pypi.python.org/pypi/trytonar_account_bank_ar)  - Tryton module with banks of Argentina
+ * [trytonar_account_ar](https://pypi.python.org/pypi/trytonar_account_ar)       - Tryton module to add an account chart template for Argentina
+ * [trytonar_account_voucher_ar](https://pypi.python.org/pypi/trytonar_account_voucher_ar) - Tryton module to add payments and receipts for Argentina
+ * [trytonar_account_coop_ar](https://pypi.python.org/pypi/trytonar_account_coop_ar)  - Tryton module to add an account chart template for Cooperative Argentina
+ * [trytonar_account_retencion_ar](https://pypi.python.org/pypi/trytonar_account_retencion_ar) - Tryton module with accounting withholding for Argentina
