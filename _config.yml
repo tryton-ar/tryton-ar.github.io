@@ -49,6 +49,8 @@ links:
     url: /documentacion/
   - title: Comunidad
     url: /comunidad/
+  - title: Demo 
+    url: /demo/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Buenos_Aires
